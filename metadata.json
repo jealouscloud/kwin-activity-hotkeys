@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Name": "Activity Switcher Shortcuts",
+        "Description": "Add missing i3/awesome style shortcuts for KDE activities. Shortcuts include 'Move Window to Activity', 'Activate Activity', 'Toggle Window in Activity'.",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "github@noaha.org",
+                "Name": "Noah Ablaseau"
+            }
+        ],
+        "Id": "activity-hotkeys",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/jealouscloud/kwin-activity-hotkeys"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}

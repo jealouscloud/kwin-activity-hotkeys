@@ -14,12 +14,20 @@ There are also hotkeys to add/remove windows from an activity
 
 - `Activate Activity 1-9` - Select current activity. Recommended binding: Meta+1 - Meta+9
 - `Move Window to Activity 1-9` - Migrate a window to the numbered activity. Recommended binding: Meta+Shift+1 - Meta+Shift+9. KDE calls this 'Meta+!' etc.
+- `Toggle Window in Activity 1-9` - Toggle window visibility in activity. Recommended binding: Meta+Ctrl+1 - Meta+Ctrl+9. 
+
 
 I found KDE to be _just nearly_ good enough to migrate to from an overly
 custom config.
 This plugin gets me over the hill.
 I hope it helps you too.
 
+## Example setup
+**Note**: To avoid conflicts, hotkeys are not set by default. Please choose your own after installing.
+
+![Example setup](screenshot.png)
+
+The screenshot shows my activity setup with numbered activities and the recommended keybindings configured in System Settings > Shortcuts.
 ## Building
 
 `zip activity-hotkeys.kwinscript LICENSE metadata.json contents/code/main.js`
